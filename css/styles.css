@@ -1,0 +1,129 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.menu-item {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.button {
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.hero-top-text {
+  line-height: 1.14;
+}
+
+.hero-heading {
+  font-family: Fredoka One;
+  font-size: 58px;
+  line-height: 1.21;
+}
+
+.hero-bottom-text {
+  font-family: Hind Madurai;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.advantages-item-heading {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.advantages-item-text {
+  font-family: Hind Madurai;
+  line-height: 1.36;
+}
+
+.details-title {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.14;
+}
+
+.details-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.product-title {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 1.39;
+}
+
+.product-item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.product-card-title {
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.39;
+}
+
+.product-card-top-text {
+  font-weight: 16px;
+  line-height: 1.5;
+}
+
+.product-card-bottom-text {
+  font-family: Hind Madurai;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.39;
+}
+
+.product-card-bottom-text-oldprice {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.feedback-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+.feedback-top-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+}
+
+.feedback-bottom-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
