@@ -1,6 +1,23 @@
+:root {
+  --accent-color: #d23166;
+  --dark-accent-color: #d64374;
+  --main-text-color: #150101;
+  --white-text-color: #fafafa;
+  --dark-section-text-color: #ffffff;
+  --hero-section-text-color: #0f0101;
+  --hero-section-bg-color: #f2ceda;
+  --details-section-bg-color: #edb5c7;
+  --black-text-color: #000000;
+  --download-section-bg-color: #f8edf0;
+  --dark-section-bg-color: #0a0808;
+  --main-bg-color: #e5e5e5;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
 }
 
 .list {
@@ -32,6 +49,9 @@ body {
   font-size: 16px;
   line-height: 1.4;
   text-decoration: none;
+
+  background-color: var(--accent-color);
+  color: var(--white-text-color);
 }
 
 .hero-top-text {
@@ -126,4 +146,44 @@ body {
 .feedback-bottom-text {
   font-size: 16px;
   line-height: 1.5;
+}
+
+.download-title,
+.question-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.18;
+}
+
+.download-text {
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.download-list-item {
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.footer-main-text {
+  font-size: 12px;
+  line-height: 1.42;
+}
+
+.footer-follow-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+}
+
+.footer-menu-item,
+.footer-info-item {
+  font-size: 12px;
+  line-height: 1.17;
+}
+
+.footer-news-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
